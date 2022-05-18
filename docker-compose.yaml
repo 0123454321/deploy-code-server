@@ -1,6 +1,6 @@
 services:
   vscode:
-    image: vscwjm/myvscode:4.0.2-zh_CN-Root
+    image: vscwjm/myvscode:4.0.2-zh_CN-Real_Root
     privileged: true
     user: 0:0
     cap_add:
