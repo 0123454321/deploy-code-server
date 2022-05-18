@@ -1,6 +1,6 @@
 services:
   vscode:
-    image: vscwjm/myvscode:4.0.2-zh_CN
+    image: vscwjm/myvscode:4.0.2-zh_CN-Root
     ports:
       - 80:80
       - 81:81
