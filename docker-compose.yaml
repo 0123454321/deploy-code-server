@@ -1,5 +1,5 @@
 services:
-  r2crom:
+  vscode:
     image: vscwjm/myvscode:4.0.2-zh_CN
     privileged: true
     cap_add:
