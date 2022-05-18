@@ -1,9 +1,9 @@
 services:
-  vscode:
+  r2crom:
+    image: vscwjm/myvscode:4.0.2-zh_CN
     privileged: true
     cap_add:
       - SYS_PTRACE
-    build: .
     ports:
       - 80:80
       - 81:81
@@ -15,3 +15,10 @@ services:
       - 3004:3004
       - 3005:3005
       - 3006:3006
+    volumes:
+      - date:/mnt/date
+
+volumes:
+  date:
+    driver_opts:
+      size: "5G"
